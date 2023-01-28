@@ -1,0 +1,106 @@
+1. strict mode veranderd de manier hoe javascript uitvoert
+2. in je function of als je wilt in je hele script boven aan in line1
+3. helpt je beter code te schrijven en geeft meer errors en maakt je script veiliger
+4. code wat je in een functie schrijft kun je hergebruiken
+5. een variabele is iets dat data opslaat een functie is iets wat meer code kan opslaan en kan worden uitgevoerd als je hem callt
+6. functionbody is de code die word uitgevoerd van een function | function myFunction(){console.log("functionbody");}
+7. a = 6 | b = 1 | c = 2 | d = 3,4 | e = 5 |
+8. niks
+9. Cheese
+10. Cheese Cheese
+11. Je krijgt 3 knuffels van mij <3
+12. Je krijgt 12 knuffels van mij <3
+13. Je krijgt 1 knuffel van mij <3
+14. Je krijgt 12 knuffels van mij <3
+15. Je krijgt 12 knuffels van mij <3 Extra knuffels!
+16. Je krijgt 12 knuffels van mij <3
+17. niks
+18. 4
+19. 4 4
+20. 8
+21. 20
+22. als je hem callt en returnd
+23. undefined
+24. function expression is nog niet initalized/defined
+25. in de parameters maak define je iets en in een argument maak je gebruik van wat je net gemaakt heb bijvoorbeeld : function myFunction(parameter){}  myFunctio(argument);
+26. kortere versie van een normale function
+27. ??????
+28. arrow function is ietsjes korter dan declaration en de arrow is nog korter als je maar 1 statement hebt
+29. 5
+30. 8
+31. 34
+32. Henk works as a Teacher and Henk is very Happy
+33. Frits works as a Developer and Henk is very Happy
+34. Henk works as a Teacher and Henk is very undefined
+35. console.log("repeated");
+console.log("repeated");
+console.log("repeated");
+console.log("repeated");
+
+
+    for(let i = 0;i<4;i++){
+    let non = console.log("non-repeat" + `${i}`);}
+    
+36. geeft een statement terug
+37. omdat hij niks returnd
+
+1. informatie die ergens word opgeslagen
+2. speciale veriable die meer dan 1 value kan opslaan 
+3. je kunt meerdere variabele in een array zetten dat maakt de code overzichtelijker
+4. piet frits kees
+5. e f omdat de sub bij de elementen moeten staan 
+6. niks
+7. 2 3 
+8. 2 27
+9. 2 3 27 
+10. undefined
+11. hoeft niet je kan er doen wat je er mee wilt je kan de functie laten uitvoeren in de console of laten zien op je scherm je bepaalt het zelf 
+12. (4) [4, 1, 2, 3]
+13. 5
+14. 3
+15. 8
+16. Uncaught ReferenceError: friendOne is not defined at console.js:1
+17. ['Henk', 'Frits', 'Kees']
+18. 4 NaN
+19. 4 7
+20. 0 1
+21. true true
+22. false false
+23. -2
+24. Great true
+1. een array heeft geen key alleen een value maar een object heeft beide const hond = { ras:'herder', geslacht: 'man', leeftijd: '18' }
+const dieren = ['hond','kat','koe','schaap'];
+2. key is een soortachtige variabele die je een waarde geeft
+3. waarde hoort bij de key
+4. key value samen
+5. values die bij een object horen
+6. a= name b = key c = value d = function
+7.  dot notation gebruik je als je een variabele hebt van de property en een bracket notation gebruik je als je geen variabele hebt voor je property
+8. Henk Henk
+9. de Vries 
+10. undefined
+11. undefined
+12. undefined
+13. true
+14. Henk de Vries
+15. Piet Janssens
+16. Piet Janssens
+17. 22
+18. 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. 
+18. 
