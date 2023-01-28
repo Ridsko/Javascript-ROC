@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+
+        <link rel="stylesheet" href="">
+        <link rel="shortcut icon" type="image/png" href="#">
+        
+        <title>Javascript-toets</title>
+        <meta name="description" content="Javascript-toets">
+        
+        <style>
+            :root {
+                --board-primary-color: rgba(191, 128, 64, 1);
+                --background-primary-color: rgba(1, 1, 1, 1);
+            }
+            *, *:after, *:before {
+                margin: 0;
+                padding: 0;
+                box-sizing: inherit;
+            }
+            html {
+                box-sizing: border-box;
+                font-size: 62.5%; /* 10px */
+                
+            }
+            body {
+                font-family: 'Courier new', monospace;
+                line-height: 1.7;
+                letter-spacing: 0.1rem;
+                word-spacing: 0.1rem;
+                
+                min-height: 100vh;
+                min-width: 100vw;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                
+                margin-top: 5rem;
+            }
+            .button-container {
+                display: flex;
+                margin-bottom: 5rem;
+                
+            }
+            .button {
+                padding: 1rem 3rem;
+                font-size: 5rem;
+                background-color: pink;
+                border-radius: 2rem;
+            }
+            .container {
+                border: 2px solid black;
+                width: 80vw;
+                
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: wrap;
+                
+            }
+            .container__item {
+                flex: 0 0 calc(100%/7);
+                padding: 2rem;
+                
+                font-size: 3rem;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .container__item:nth-child(5n){background-color: red;}
+            .container__item:nth-child(5n+1){background-color: blue;}
+            .container__item:nth-child(5n+2){background-color: green;}
+            .container__item:nth-child(5n+3){background-color: yellow;}
+            .container__item:nth-child(5n+4){background-color: purple;}
+        </style>
+    </head>
+    <body>
+        <div class="button-container">
+            <button id="knop" class="button-container__item button">Add element!</button>
+        </div>
+        <div id="c" class="container">
+            
+            
+        </div>
+        <script>
+            document.getElementById("knop").onclick = function() {
+                let b = 1;
+                for(let i = 0;i < 49;i++){
+                let p = document.createElement("div");
+                p.innerHTML = b;
+                console.log(b);
+                document.getElementById("c").appendChild(p);
+                p.setAttribute("class","container__item");
+                    b++;
+                }
+                document.getElementById("knop").disabled = true;
+}
+        </script>    
+    </body>
+</html>

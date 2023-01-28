@@ -1,0 +1,21 @@
+/*1. daarmee kun je de html manipuleren zoals classes toevoegen,verwijdereren,veranderen etc.
+document.getElementById("item").innerHTML = "Hoi";
+
+2. falsly values zijn waardes die vals zijn in boolean context.   let x = null; Boolean(x); is vals let x = "Hoi"; Boolean(x); is true
+
+3
+a. een variabele met meerdere waardes
+b. een array is toeganglijk door indexes te gebruiken een object gebruikt key value pairs
+
+4. 
+a. een for loop word gebruikt om code steeds te herhalen
+b. een while loop word gebruikt om code steeds te herhalen zolang de conditie true is
+c. ze herhalen allebei code alleen hebben ze andere eisen
+d. hier zie je dan hij 10x word gerunt for(let i = 0; i < 20;i++){i++}   hier zie je dat hij word gerunt zolang de conditie true is while(conditie){let i = 0; i++;}
+
+5.
+a. if-else gebruik je als je wilt dat er code word uitgevoerd als de conditie true is, else word uitgevoerd als de conditie niet true is
+b.switch case gebruik je als je meerdere condities hebt die true of false kunnen zijn 
+c.
+let nummer = 0; if(nummer=0){} hier word alleen gecontroleerd op 1 conditie en dat is kijken of nummer 0 is.   let nummer = "0";switch (nummer) {case 0:text = "0";break;case 1:text = "1";break;  hier kijkt hij of er meerdere condities zijn oftewel cases en daarbij voert hij code uit waneer er een case overeenkomt
+
